@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 320px;
+    color: #ddd;
+}
+
+#game-board div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #0a2650;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#game-board div:hover {
+    background-color: #ddd;
+}
+
+#status{
+    color: #0a2650;
+
+}
